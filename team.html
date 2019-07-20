@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>page</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS File -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!--Header-->
+        <header id="container-fluid header">
+            <div class="row logo ">
+                <div class="col-6 logo-image">
+                    <a class="navbar-brand" href="index.html"><img src="images/home/mainlogo.png" alt="logo" title=""></a>
+                    <!--<a class="navbar-brand" href="#"> <i class="fas fa-envelope email-icon"></i></a>-->
+                </div>
+                <div class="col-6 address">
+                    <div class="email">
+                        <img class="mobimg" src="images/home/icon_mail.png" alt="logo" title=""><a href="mailto:staff@bayviewrehabilitation.com"> staff@bayviewrehabilitation.com</a>
+                    </div>
+                    <div class="mob">
+                        <img class="mobimg" src="images/home/icon_call.png" alt="logo" title=""><a href="tel:+13115552368">(311) 555-2368</a>
+                    </div>
+                </div>
+            </div>
+            <!--</div>-->
+
+            <!--Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto text-center">
+                        <li class="nav-item mobile-only-booking">
+                            <a class="nav-link" href="book.html">Book Now</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html">Our Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="conditions.html">Conditons Treated</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link " href="team.html">Our Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="faq.html">FAQ's</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <!--       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
+                        <button class="book-now-nav btn-outline-success my-2 my-sm-0"> <a href="book.html">Book an appointment</a>
+                        </button>
+                    </form>
+                </div>
+            </nav>
+            <!--Navigation-->
+        </header>
+
+        <div class="container">
+            <div class="row title">
+                <div class="col-md-12">
+                    <h1>Meet the team</h1>
+                </div>
+            </div>
+            <div class="row specialist">
+                <div class="col-md-4 team-icon">
+                    <a href="#modal1" data-toggle="modal"><img class="thumbnail" src="images/team/adam.png"></a>
+                    <h2>Adam Saporta PT, MScPT</h2>
+                    <p>Physiotherapist</p>
+                </div>
+                <div class="col-md-4 team-icon">
+                    <a href="#modal2" data-toggle="modal"><img class="thumbnail" src="images/team/anahid.jpg"></a>
+                    <h2>Anahid Khoubani PTA</h2>
+                    <p>Physiotherapist Assistant</p>
+                </div>
+                <div class="col-md-4 team-icon">
+                    <a href="#modal3" data-toggle="modal"><img class="thumbnail" src="images/team/golrokh.jpg"></a>
+                    <h2>Golrokh Nazmi RMT</h2>
+                    <p>Massage Therapist</p>
+                </div>
+            </div>
+            <div class="row specialist">
+                <div class="col-md-4 team-icon">
+                    <a href="#modal4" data-toggle="modal"><img class="thumbnail" src="images/team/harold.png"></a>
+                    <h2>Harold Marefatpour PT, MScPT, Cert. MDT</h2>
+                    <p>Physiotherapist</p>
+                </div>
+                <div class="col-md-4 team-icon">
+                    <a href="#modal5" data-toggle="modal"><img class="thumbnail" src="images/team/Jemma.png"></a>
+                    <h2>Jemma Callender-Stoute PT</h2>
+                    <p>Physiotherapist</p>
+                </div>
+                <div class="col-md-4 team-icon">
+                    <a href="#modal6" data-toggle="modal"><img class="thumbnail" src="images/team/Joanna.jpg"></a>
+                    <h2>Joanna Lau PT, BSc, Cert. MDT</h2>
+                    <p>Physiotherapist</p>
+                </div>
+            </div>
+            <div class="row specialist">
+                <div class="col-md-4 team-icon">
+                    <a href="#modal7" data-toggle="modal"><img class="thumbnail" src="images/team/Negar.jpg"></a>
+                    <h2>Negar Nayeri PT, BSc</h2>
+                    <p>Physiotherapist</p>
+                </div>
+                <div class="col-md-4 team-icon">
+                    <a href="#modal8" data-toggle="modal"><img class="thumbnail" src="images/team/Paul.jpg"></a>
+                    <h2>Petru Ursulescu RMT</h2>
+                    <p>Massage Therapist</p>
+                </div>
+                <div class="col-md-4 team-icon">
+                    <a href="#modal9" data-toggle="modal"><img class="thumbnail" src="images/team/Petru.jpg"></a>
+                    <h2>Paul Le PTA, BSc</h2>
+                    <p>Physiotherapist Assistant<p>
+                </div>
+            </div>
+        </div>
+        <!--Modal for Adam starts here-->
+        <div class="modal hide" id="modal1">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">✕</button>
+
+            </div>
+            <div class="modal-body" style="text-align:center;">
+                <div class="row-fluid">
+                    <div class="span10 offset1">
+                        <div id="modalTab">
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="about">
+                                    <img src="images/team/adam.png" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+                                    <h3 class="media-heading">Adam Saporta PT, MScPT <BR><small> Physiotherapist</small></h3>
+
+                                    <hr>
+                                    <center>
+                                        <p class="text-left">
+                                            Adam Saporta is a Registered Physiotherapist licensed to practice in the province of Ontario. He completed a Masters of Science in Physical Therapy from the University of Toronto and received an Honours Bachelor of Science Degree in Kinesiology and Biology at York University. Adam has practiced in in hospital, community and private settings for over 10 years and has a passion for treating orthopedic conditions/syndromes and sport injuries. He is on the Executive Committee for the Orthopedic Division of the Ontario Chapter of the Canadian Physiotherapy Association and is passionate about providing exceptional care for those with orthopedic conditions. Using a myriad of treatment approaches including manual therapy, acupuncture and exercise prescription, Adam’s goal is to promote long-term wellness and prevent injury for his patients and relishes the opportunity to provide his knowledge and expertise with you.</p>
+                                        <br>
+                                    </center>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--modal ends here-->
+
+        <!--modal for anahid starts here-->
+
+        <div class="modal hide" id="modal2">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">✕</button>
+
+            </div>
+            <div class="modal-body" style="text-align:center;">
+                <div class="row-fluid">
+                    <div class="span10 offset2">
+                        <div id="modalTab">
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="about">
+                                    <img src="images/team/anahid.jpg" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+                                    <h3 class="media-heading">Anahid Khoubani PTA <BR><small> Physiotherapist Assistant</small></h3>
+
+                                    </center>
+                                    <hr>
+                                    <center>
+                                        <p class="text-left">
+                                            Anahid Khoubani is a Physiotherapist Assistant licensed to practice under the supervision of a Registered Physiotherapist. She is a graduate of the Physiotherapy Assistant program from Trios College and recently completed a Diploma in Osteopathy. With over 5 years of experience, Anahid was worked in a variety of private practice settings. Her knowledge of treatment modalities and exercise prescriptions allows her to provide a client-centered approach when working her patients. She is passionate about wellness and enjoys seeing individuals through their recovery.</p>
+                                        <br>
+                                    </center>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--modal for anahid ends here-->
+
+        <!--Modal for Golrohk starts here-->
+        <div class="modal hide" id="modal3">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">✕</button>
+
+            </div>
+            <div class="modal-body" style="text-align:center;">
+                <div class="row-fluid">
+                    <div class="span10 offset3">
+                        <div id="modalTab">
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="about">
+                                    <img src="images/team/golrokh.jpg" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+                                    <h3 class="media-heading">Golrokh Nazmi RMT<BR><small>Massage Terapist</small></h3>
+
+                                    </center>
+                                    <hr>
+                                    <center>
+                                        <p class="text-left">
+                                            Golrokh is a Registered Massage Therapist licensed to practice in Ontario. She graduated from the Canadian College of Massage and Hydrotherapy and is a member in good standing with the Registered Massage Therapy Association of Ontario. She is a well rounded health care professional, with a background in Occupation Therapy and has exceptional knowledge of human anatomy and pathology. Golrokh is versed in a variety of massage therapy techniques include deep tissue, relaxation and postpartum and has a strong interest in soft tissue and sport injuries. She is also a certified Occupational Therapy and Physiotherapy Assistant and has practiced in this capacity. She is passionate about her work and enjoys helping individual recovery from muscle pain and discomfort.</p>
+                                        <br>
+                                    </center>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--modal ends here-->
+
+        <!--Modal for Harold starts here-->
+        <div class="modal hide" id="modal4">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">✕</button>
+
+            </div>
+            <div class="modal-body" style="text-align:center;">
+                <div class="row-fluid">
+                    <div class="span10 offset4">
+                        <div id="modalTab">
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="about">
+                                    <img src="images/team/harold.png" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+                                    <h3 class="media-heading">Harold Marefatpour PT, MScPT, Cert. MDT <BR><small> Physiotherapist</small></h3>
+
+                                    </center>
+                                    <hr>
+                                    <center>
+                                        <p class="text-left">
+                                            Harold Marefatpour is a Registered Physiotherapist licensed to practice in the province of Ontario. He completed a Masters of Science in Physiotherapy from the University of Tehran. Since graduating, Harold has practiced in hospital, community, private and long term care settings for over 23 years and has a passion for treating orthopedic conditions, sport injuries, and temporomandibular joint (TMJ) disorders. He is a trained in the McKenzie Method® and is certified in Mechanical Diagnosis and Therapy®. Harold has additional training in manual therapy (through the Canadian Physiotherapy Association Manual Therapy Program), exercise prescription, acupuncture, taping and Mulligan techniques. Harold’s goal is to provide the best possible treatment approach for patients using his knowledge and experience to promote long-term wellness, improve mobility and prevent injuries.</p>
+                                        <br>
+                                    </center>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--modal ends here-->
+
+        <!--Modal for Jemma starts here-->
+        <div class="modal hide" id="modal5">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">✕</button>
+
+            </div>
+            <div class="modal-body" style="text-align:center;">
+                <div class="row-fluid">
+                    <div class="span10 offset5">
+                        <div id="modalTab">
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="about">
+                                    <img src="images/team/Jemma.png" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+                                    <h3 class="media-heading">Jemma Callender-Stoute PT<BR><small> Physiotherapist</small></h3>
+
+                                    </center>
+                                    <hr>
+                                    <center>
+                                        <p class="text-left">
+                                            Jemma Callender-Stoute is a Registered Physiotherapist licensed to practice in the province of Ontario. She completed a Diploma of Physiotherapy in Birmingham, England in 1971 and is registered with the Chartered Society of Physiotherapy. Jemma has been enthusiastic about providing you with over 48 years in hospital, community and private settings and is enthusiastic about providing exceptional patient-centered care. With a focus on treating orthopedic, respiratory and dystonic-related conditions her passion lies with working with the geriatric population. She enjoys providing her patients with a multitude of treatment approaches including manual therapy, therapeutic modalities, exercises and education that are specific to the individual needs of her patients and looks forward to continue to provide you with the excellent care you deserve.</p>
+                                        <br>
+                                    </center>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--modal ends here-->
+
+        <!--Modal for Joanna starts here-->
+        <div class="modal hide" id="modal6">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">✕</button>
+
+            </div>
+            <div class="modal-body" style="text-align:center;">
+                <div class="row-fluid">
+                    <div class="span10 offset6">
+                        <div id="modalTab">
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="about">
+                                    <img src="images/team/Joanna.jpg" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+                                    <h3 class="media-heading">Joanna Lau PT, BSc, Cert. MDT <BR><small> Physiotherapist</small></h3>
+
+                                    </center>
+                                    <hr>
+                                    <center>
+                                        <p class="text-left">
+                                            Joanna is a Registered Physiotherapist licensed to practice in Ontario. She has over 15 years experience working in a variety of settings including hospital, long term care, Ministry funded OHIP clinics, private practice and in the community. Joanna graduated from the University of Toronto and is Certified in Acupuncture and in the McKenzie Method® of Mechanical Diagnosis and Therapy® (MDT). She enjoys treating a clients with musculoskeletal and pain associated ailments to help them regain their physical function. She believes successful and effective treatment is built upon a trusting relationship between the therapist and the client and uses a combination of electromodalities, manual therapy, education and exercise prescription to when caring for her clients.</p>
+                                        <br>
+                                    </center>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--modal ends here-->
+
+        <!--Modal for Negar starts here-->
+        <div class="modal hide" id="modal7">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">✕</button>
+
+            </div>
+            <div class="modal-body" style="text-align:center;">
+                <div class="row-fluid">
+                    <div class="span10 offset7">
+                        <div id="modalTab">
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="about">
+                                    <img src="images/team/Negar.jpg" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+                                    <h3 class="media-heading">Negar Nayeri PT, BSc <BR><small> Physiotherapist</small></h3>
+
+                                    </center>
+                                    <hr>
+                                    <center>
+                                        <p class="text-left">
+                                            Negar Nayeri Nia is a Registered Physiotherapist licensed to practice in the province of Ontario. She completed a Bachelor of Science in Physiotherapy from the University of Tehran. Negar has practiced in hospital, community and private settings for over 20 years treating orthopedic and sports injuries, cardiovascular conditions and pelvic health. She has additional training in manual therapy, acupuncture, therapeutic taping and pelvic health physiotherapy and extremely passionate about her work. Negar’s goal is to provide optimal treatment programs using her expertise and knowledge to improve overall health and well-being of her patients.</p>
+                                        <br>
+                                    </center>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--modal ends here-->
+
+        <!--Modal for Petru starts here-->
+        <div class="modal hide" id="modal8">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">✕</button>
+
+            </div>
+            <div class="modal-body" style="text-align:center;">
+                <div class="row-fluid">
+                    <div class="span10 offset8">
+                        <div id="modalTab">
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="about">
+                                    <img src="images/team/Petru.jpg" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+                                    <h3 class="media-heading">Petru Ursulescu RMT <BR><small> Massage Therapist</small></h3>
+
+                                    </center>
+                                    <hr>
+                                    <center>
+                                        <p class="text-left">
+                                            Petru Ursulescu is a Registered Massage Therapist licensed to practice in Ontario. With over 11 years of experience in the healthcare field, he has practice in a myriad of setting including inter-professional rehabilitation centers, spas and hotels. His techniques focus on decreasing pain and promoting recovery. Petru is detail-oriented and client-centered and works collaboratively with healthcare professionals to ensure they reach their goals and optimize their function. He is a graduate of the Royal Canadian College of Massage Therapy and has additional training in human kinetics, biomechanics and remedial exercise to improve recovery, healing and self-confidence.</p>
+                                        <br>
+                                    </center>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--modal ends here-->
+        <!--Modal for Paul starts here-->
+        <div class="modal hide" id="modal9">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">✕</button>
+
+            </div>
+            <div class="modal-body" style="text-align:center;">
+                <div class="row-fluid">
+                    <div class="span10 offset9">
+                        <div id="modalTab">
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="about">
+                                    <img src="images/team/Paul.jpg" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+                                    <h3 class="media-heading">Paul Le PTA, BSc <BR><small> Physiotherapist Assistant</small></h3>
+
+                                    </center>
+                                    <hr>
+                                    <center>
+                                        <p class="text-left">
+                                            Paul Le is a Physiotherapist Assistant licensed to practice under the supervision of a Registered Physiotherapist. He completed an Ontario Diploma with Honours from the Occupational Therapist and Physiotherapist Assistant program at Centennial College. Paul has practiced in private and hospital settings, treating a variety of orthopedic and neurological conditions. He is knowledgeable with exercise treatment methods and therapeutic modalities. Paul is passionate about sharing his knowledge of health and wellness that ensures clients have an enjoyable and successful journey to recovery.</p>
+                                        <br>
+                                    </center>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--modal ends here-->
+
+      <!--Footer-->
+    <div class="footer">
+        <div class="row section1">
+            <div class="col no-gutters">
+                <h3 class="footer-heading">Follow up and listen Our stories<br>
+                    Read our blog to keep yourself updated</h3><br>
+                <div class="blog">
+                    <button class="goto-blog"> <a href="http://www.bayviewrehabilitation.com/category/blog/" target="_blank">Go to Blog</a>
+                    </button><br><br>
+                </div>
+
+                <div class="footerlinks">
+                    <a href="">Privacy Policy</a><br>
+                    <a href="https://www.linkedin.com/company/bayview-rehabilitation/jobs/">Career</a><br>
+                    <a href="https://www.google.com/search?hl=en-CA&gl=ca&q=Bayview+Rehabilitation,+206-3333+Bayview+Ave,+North+York,+ON+M2K+1G4&ludocid=858940157325236048&lsig=AB86z5WP4RP1ZijHyiH9l4qekqZs#lrd=0x882b2d27f2f91bc1:0xbeb9185b0b05750,3">Review Us</a><br>
+                </div>
+            </div>
+            <div class="col-6 no-gutters text-center social-media ">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/bayviewrehab" target="_blank"><img src="images/home/fb.png"></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/BayviewRehab" target="_blank"><img src="images/home/twit.png"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/bayviewrehabilitation/" target="_blank"><img src="images/home/inst.png"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/company/bayview-rehabilitation" target="_blank"><img src="images/home/link.png"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 text-center footer-text">
+                <p> © Copyright Bayview Rehabilitation 2019
+                    <br>All Rights Reserved.
+                    Website terms and conditions.
+                    <br>Site by Forward creative solution
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+
+
+        <!--Scripts -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+</body></html>

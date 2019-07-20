@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>page</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <!-- Font awesome File -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <!-- Bootstrap CSS File -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animate.css">
+</head>
+
+<body>
+    <div class="container-fluid wrapper">
+        <!--Header-->
+        <header id="container-fluid header">
+            <div class="row logo ">
+                <div class="col-6 logo-image">
+                    <a class="navbar-brand" href="index.html"><img src="images/home/mainlogo.png" alt="logo" title=""></a>
+                    <!--<a class="navbar-brand" href="#"> <i class="fas fa-envelope email-icon"></i></a>-->
+                </div>
+                <div class="col-6 address">
+                    <div class="email">
+                        <img class="mobimg" src="images/home/icon_mail.png" alt="logo" title=""><a href="mailto:staff@bayviewrehabilitation.com"> staff@bayviewrehabilitation.com</a>
+                    </div>
+                    <div class="mob">
+                        <img class="mobimg" src="images/home/icon_call.png" alt="logo" title=""><a href="tel:+13115552368">(311) 555-2368</a>
+                    </div>
+                </div>
+            </div>
+            <!--</div>-->
+
+            <!--Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto text-center">
+                        <li class="nav-item mobile-only-booking">
+                            <a class="nav-link" href="book.html">Book Now</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html">Our Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="conditions.html">Conditons Treated</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="team.html">Our Team</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link " href="faq.html">FAQ's</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <button class="book-now-nav btn-outline-success my-2 my-sm-0"> <a href="book.html">Book an appointment</a>
+                        </button>
+                    </form>
+                </div>
+            </nav>
+            <!--Navigation-->
+        </header>
+
+
+        <div class="title">
+            <h1>FAQ</h1>
+        </div>
+        <!-- BOOTSTRAP SEARCH BAR -->
+        <div class="content">
+          <!--  <nav class="navbar">
+                <form class="searchbar">
+                    <input class="form-control" type="search" placeholder="Search .." aria-label="Search">
+                </form>
+            </nav>-->
+
+            <!-- BOOTSTRAP ACCORDION -->
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What is physiotherapy?
+                            </button>
+                        </h2>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Physiotherapy is a primary care profession dedicated to improving the quality of life by:
+                            <ul>
+                                <li>Promoting optimal mobility, physical activity and overall wellness.</li>
+                                <li>Preventing disease, injury and disability.</li>
+                                <li>Managing acute and chronic conditions, activity limitations and participation restrictions.</li>
+                                <li>Improving and maintaining optimal functional independence and physical performance.</li>
+                                <li>Rehabilitating injury and the effects of disease or disability with therapeutic exercise programs and other interventions.</li>
+                                <li>Educating and planning maintenance and support programs to prevent re-occurrence, re-injury or functional decline.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                What is involved in physiotherapy assessment?
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            A physiotherapist will assess you using detailed history taking, performing special physical and functional tests and measures in order to analyze the assessment findings and use clinical reasoning to establish an appropriate treatment plan.
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                How many sessions do I need before I am feeling better?
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                            At Bayview Rehabilitation, we pride ourselves with providing customized client-centered care. The number of sessions required before you improve is depending on a variety of factors including pain tolerance, the length of time you have had your symptoms, you medical history and your compliance with your personalized treatment plan. After a throughout assessment, your physiotherapist will determine how often you need to come in for treatment.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                What type of treatment options do you provide?
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Physiotherapy treatment involves:
+                            <ul>
+                                <li>Education, consultation, health promotion and prevention services.</li>
+                                <li>Personalized therapeutic exercise including testing and conditioning.</li>
+                                <li> tissue and manual therapy techniques including massage, spinal and peripheral joint mobilization and manipulation.</li>
+                                <li>Physical, electrotherapeutic and mechanical agents and acupuncture.</li>
+                                <li>Functional and/or sport-specific exercises.</li>
+                                <li>Functional activity and tolerance testing and training.</li>
+                                <li>Prescription and application of assistive, adaptive, supportive and protective devices and equipment.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                How does acupuncture work?
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Physiotherapists who are trained in acupuncture can incorporate it into their treatment sessions in order to achieve optimal outcomes. Acupuncture is used to:
+                            <ul>
+                                <li>Decrease pain</li>
+                                <li>Improve circulation</li>
+                                <li>Decrease inflammation</li>
+                                <li>Promote tissue healing and regeneration</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Do I need a referral to access any of your services?
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                            No. Physiotherapists are primary health care professionals and therefore no referral is required to access any of their services. However, some extended health insurance plans do require a referral from a physician in order to provide coverage for these services.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Am I able to come to Bayview Rehabilitation even if I was referred to another clinic by my doctor?
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Yes, you are able to receive physiotherapy care at any clinic of your choosing.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                How do I know if I qualify for OHIP-funded services?
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                            You may be eligible for OHIP-funded physiotherapy services if you meet one of the following criteria:
+                            <ul>
+                                <li>Over the age of 65 or younger than 19.</li>
+                                <li>Any age if discharged from a hospital after an overnight stay for a condition requiring physiotherapy; or,</li>
+                                <li> recipient of Ontario Works or the Ontario Disability Support Program.</li>
+                            </ul>
+                            If you meet any one of the following criteria you will be eligible for OHIP funded physiotherapy services. Please ensure you provide us with a physician referral (including their OHIP billing number) in order to access these services.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                What is massage therapy?
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Massage Therapy is an intervention involving a range of techniques to manipulate the soft tissues and joints of the body. The purpose of massage therapy is to prevent, develop, maintain and relieve pain, stress, muscular overuse and many chronic pain syndromes. Massage Therapy services are not covered by OHIP. However, most extended health insurance policies cover this service.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Do I need to bring anything with me for my first visit?
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                            On your initial visit, please bring your physician referral (if you have one) along with any other documentation (investigative medical tests) related to the reason you are coming in for treatment. Please also ensure you wear comfortable clothing in order to properly assess and/or treat the area in question.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                I was recently involved in a motor vehicle collision, what do I have to do to start physiotherapy?
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                            If you have been involved in a motor vehicle collision you can have a physiotherapy assessment immediately and complete all the preliminary motor vehicle insurance documentation. These documents along with the proposed treatment plan are sent to your insurance company for approval. Once approved, treatment can begin.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                How do I get to the second floor?
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                            An elevator or stairwell can be used to access the second floor. The elevators are located on the main level next to CIBC.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Do you provide care for patients with workplace safety and insurance board (WSIB) claims?
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Bayview Rehabilitation does not provide physiotherapy services for patients with WSIB claims at the moment.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Does insurance cover your services?
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                            All of our services are provided by registered health care professionals who are licensed to practice in the Province of Ontario. As such, our services are covered by extended health care plans that offer physiotherapy and massage therapy benefits.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Do you bill extended health insurance companies directly?
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                            At this time we do not bill extended health care insurance companies directly. You are required to pay for services directly. You will receive an official receipt which will include the license number of the health care provider who provided you with that service to collect your reimbursement.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                You mention you specialize in TMJ treatment. What does this involve?
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Treatment for temporomandibular (jaw) disorders and facial pain involve a myriad of techniques involving mobilization, soft tissue release, acupuncture, electrotherapeutic modalities combined with specific exercises.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                You mention you specialize in backs. What does this involve?
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                            At Bayview Rehabilitation, our physiotherapists are Certified in the McKenzie Method® of Mechanical Diagnosis and Treatment of conditions involving the neck and low back. The method involves diagnosing and treating low back pain through specific movements based on your response to those movements. This technique combined with specific core and function based exercises has been proven effective in treating low back conditions. For more information about the McKenzie Method® please click here: www.mckenziemdt.org
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                What is the assistive device program (ADP) for walkers and wheelchairs?
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                            The Ontario Ministry of Health and Long-Term Care runs the ADP program to help those who have long-term physical disabilities get the needed mobility aids they require. In most cases, ADP covers 75% of the cost of an approved device. For more information on the ADP program please click here www.health.gov.on.ca/en/public/programs/adp/publications/mobility.aspx.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                How can I pay for physiotherapy if I am not eligible for OHIP?
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Many health care insurance providers cover all costs or a portion of the cost of physiotherapy care. Some extended health insurance plans may require a physician’s referral in order to reimburse you for the service. Call your health insurance provider to confirm your level of coverage before you book your assessment so you are aware if you will require a physician referral for reimbursement.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="footer">
+        <div class="row section1">
+            <div class="col no-gutters">
+                <h3 class="footer-heading">Follow up and listen Our stories<br>
+                    Read our blog to keep yourself updated</h3><br>
+                <div class="blog">
+                    <button class="goto-blog"> <a href="http://www.bayviewrehabilitation.com/category/blog/" target="_blank">Go to Blog</a>
+                    </button><br><br>
+                </div>
+
+                <div class="footerlinks">
+                    <a href="">Privacy Policy</a><br>
+                    <a href="https://www.linkedin.com/company/bayview-rehabilitation/jobs/">Career</a><br>
+                    <a href="https://www.google.com/search?hl=en-CA&gl=ca&q=Bayview+Rehabilitation,+206-3333+Bayview+Ave,+North+York,+ON+M2K+1G4&ludocid=858940157325236048&lsig=AB86z5WP4RP1ZijHyiH9l4qekqZs#lrd=0x882b2d27f2f91bc1:0xbeb9185b0b05750,3">Review Us</a><br>
+                </div>
+            </div>
+            <div class="col-6 no-gutters text-center social-media ">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/bayviewrehab" target="_blank"><img src="images/home/fb.png"></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/BayviewRehab" target="_blank"><img src="images/home/twit.png"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/bayviewrehabilitation/" target="_blank"><img src="images/home/inst.png"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/company/bayview-rehabilitation" target="_blank"><img src="images/home/link.png"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 text-center footer-text">
+                <p> © Copyright Bayview Rehabilitation 2019
+                    <br>All Rights Reserved.
+                    Website terms and conditions.
+                    <br>Site by Forward creative solution
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+
+
+    <!--Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+</body></html>

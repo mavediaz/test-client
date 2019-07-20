@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="125px" height="139px" viewBox="0 0 125 139" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>diamond</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HOME--Copy-2" transform="translate(-657.000000, -1215.000000)">
+            <g id="diamond" transform="translate(658.000000, 1215.000000)">
+                <g id="Group" transform="translate(0.000000, 38.000000)" fill-rule="nonzero" stroke="#04E0DD">
+                    <polygon id="Shape" points="123.474898 27.5347694 61.7374492 100.098214 61.36817 99.6655293 0 27.5347694 27.3690507 0.69327771 96.1058476 0.69327771"></polygon>
+                    <polygon id="Shape" points="123.474898 27.5347694 61.7374492 100.098214 61.7374492 0.69327771 96.1058476 0.69327771"></polygon>
+                    <polygon id="Shape" points="82.417083 27.4747003 41.0578153 27.4747003 61.36817 1.17195329 61.7374492 0.69327771"></polygon>
+                    <polygon id="Shape" points="96.1049054 0.69327771 82.1156306 27.4747003 123.474898 27.4747003"></polygon>
+                    <polygon id="Shape" points="27.3699929 0.69327771 41.3592677 27.4747003 0 27.4747003"></polygon>
+                    <polygon id="Shape" points="82.1156306 27.4747003 61.7374492 100.098214 61.36817 98.7842032 41.3592677 27.4747003"></polygon>
+                </g>
+                <path d="M23.5,22.5 L6.0357508,5.0357508" id="Line" stroke="#FFBF64" stroke-linecap="square"></path>
+                <path d="M60.5,25.5 L60.5,0.5" id="Line" stroke="#FFBF64" stroke-linecap="square"></path>
+                <path d="M95.5,23.5 L110.5,3.5" id="Line" stroke="#FFBF64" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>
